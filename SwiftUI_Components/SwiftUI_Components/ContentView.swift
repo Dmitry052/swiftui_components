@@ -18,6 +18,16 @@ struct ContentView: View {
                         destination: WrapHStackExample(), label: {
                         Text("WrapHStackView")
                     })
+                    
+                    NavigationLink(
+                        destination: QRCodeViewExample(), label: {
+                        Text("QRCodeView")
+                    })
+                    
+                    NavigationLink(
+                        destination: QrCodeScannerViewExample(), label: {
+                        Text("QrCodeScannerView")
+                    })
                 }
             }
         }

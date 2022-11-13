@@ -15,7 +15,7 @@ struct WrapHStackExample: View {
                 LazyVStack {
                     WrapHStackView(
                         parentWidth: UIScreen.main.bounds.width - 16,
-                        content: Array(0...1000).compactMap({ index in
+                        content: Array(0...100).compactMap({ index in
                             VStack {
                                 Text("Index: \(index)")
                             }
