@@ -12,7 +12,6 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 TitleView(title: "Components")
-                
                 List {
                     NavigationLink(
                         destination: WrapHStackExample(), label: {
@@ -28,8 +27,14 @@ struct ContentView: View {
                         destination: QrCodeScannerViewExample(), label: {
                         Text("QrCodeScannerView")
                     })
+                    
+                    NavigationLink(
+                        destination: StepBottomSheetViewExample(), label: {
+                        Text("StepBottomSheetView")
+                    })
                 }
             }
+            .navigationBarHidden(true)
         }
     }
 }

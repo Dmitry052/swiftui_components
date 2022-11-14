@@ -20,6 +20,9 @@
 		2D3585AA292130BC00AABC70 /* QrCodeCameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3585A9292130BC00AABC70 /* QrCodeCameraDelegate.swift */; };
 		2D3585AC292130D200AABC70 /* QrCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3585AB292130D200AABC70 /* QrCodeScannerView.swift */; };
 		2D3585AE2921310A00AABC70 /* QrCodeScannerViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3585AD2921310A00AABC70 /* QrCodeScannerViewExample.swift */; };
+		2D3585B129222E6000AABC70 /* StepBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3585B029222E6000AABC70 /* StepBottomSheetView.swift */; };
+		2D3585B329222E6F00AABC70 /* StepBottomSheetViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3585B229222E6E00AABC70 /* StepBottomSheetViewExample.swift */; };
+		2D3585B529222F0400AABC70 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3585B429222F0400AABC70 /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		2D3585A9292130BC00AABC70 /* QrCodeCameraDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeCameraDelegate.swift; sourceTree = "<group>"; };
 		2D3585AB292130D200AABC70 /* QrCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeScannerView.swift; sourceTree = "<group>"; };
 		2D3585AD2921310A00AABC70 /* QrCodeScannerViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeScannerViewExample.swift; sourceTree = "<group>"; };
+		2D3585B029222E6000AABC70 /* StepBottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepBottomSheetView.swift; sourceTree = "<group>"; };
+		2D3585B229222E6E00AABC70 /* StepBottomSheetViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepBottomSheetViewExample.swift; sourceTree = "<group>"; };
+		2D3585B429222F0400AABC70 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,7 @@
 		2D3585982920ED7A00AABC70 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				2D3585AF29222E4B00AABC70 /* StepBottomSheet */,
 				2D3585A62921307F00AABC70 /* QRCodeScanner */,
 				2D3585A12921295800AABC70 /* QRCode */,
 				2D35859C2920F39100AABC70 /* Common */,
@@ -132,6 +139,16 @@
 				2D3585AD2921310A00AABC70 /* QrCodeScannerViewExample.swift */,
 			);
 			path = QRCodeScanner;
+			sourceTree = "<group>";
+		};
+		2D3585AF29222E4B00AABC70 /* StepBottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				2D3585B029222E6000AABC70 /* StepBottomSheetView.swift */,
+				2D3585B429222F0400AABC70 /* BlurView.swift */,
+				2D3585B229222E6E00AABC70 /* StepBottomSheetViewExample.swift */,
+			);
+			path = StepBottomSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,9 +222,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D3585A32921296200AABC70 /* QRCodeView.swift in Sources */,
+				2D3585B529222F0400AABC70 /* BlurView.swift in Sources */,
+				2D3585B129222E6000AABC70 /* StepBottomSheetView.swift in Sources */,
 				2D35858D2920EB3900AABC70 /* ContentView.swift in Sources */,
 				2D3585A52921297500AABC70 /* QRCodeViewExample.swift in Sources */,
 				2D3585A02920F59700AABC70 /* WrapHStackExample.swift in Sources */,
+				2D3585B329222E6F00AABC70 /* StepBottomSheetViewExample.swift in Sources */,
 				2D35859B2920EDAF00AABC70 /* WrapHStackView.swift in Sources */,
 				2D3585A8292130A200AABC70 /* QRCodeCameraPreview.swift in Sources */,
 				2D3585AA292130BC00AABC70 /* QrCodeCameraDelegate.swift in Sources */,
