@@ -32,6 +32,11 @@ struct ContentView: View {
                         destination: StepBottomSheetViewExample(), label: {
                         Text("StepBottomSheetView")
                     })
+                    
+                    NavigationLink(
+                        destination: SpecificCornerShapeViewExample(), label: {
+                        Text("SpecificCornerShape")
+                    })
                 }
             }
             .navigationBarHidden(true)

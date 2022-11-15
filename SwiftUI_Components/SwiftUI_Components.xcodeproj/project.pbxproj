@@ -23,6 +23,8 @@
 		2D3585B129222E6000AABC70 /* StepBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3585B029222E6000AABC70 /* StepBottomSheetView.swift */; };
 		2D3585B329222E6F00AABC70 /* StepBottomSheetViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3585B229222E6E00AABC70 /* StepBottomSheetViewExample.swift */; };
 		2D3585B529222F0400AABC70 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3585B429222F0400AABC70 /* BlurView.swift */; };
+		FA83DE9E2924170F004726E9 /* SpecificCornerShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA83DE9D2924170F004726E9 /* SpecificCornerShapeView.swift */; };
+		FA83DEA229241754004726E9 /* SpecificCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA83DEA129241754004726E9 /* SpecificCornerShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		2D3585B029222E6000AABC70 /* StepBottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepBottomSheetView.swift; sourceTree = "<group>"; };
 		2D3585B229222E6E00AABC70 /* StepBottomSheetViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepBottomSheetViewExample.swift; sourceTree = "<group>"; };
 		2D3585B429222F0400AABC70 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		FA83DE9D2924170F004726E9 /* SpecificCornerShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificCornerShapeView.swift; sourceTree = "<group>"; };
+		FA83DEA129241754004726E9 /* SpecificCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificCornerShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 		2D3585982920ED7A00AABC70 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				FA83DE9C292416AC004726E9 /* SpecificCornerShape */,
 				2D3585AF29222E4B00AABC70 /* StepBottomSheet */,
 				2D3585A62921307F00AABC70 /* QRCodeScanner */,
 				2D3585A12921295800AABC70 /* QRCode */,
@@ -149,6 +154,15 @@
 				2D3585B229222E6E00AABC70 /* StepBottomSheetViewExample.swift */,
 			);
 			path = StepBottomSheet;
+			sourceTree = "<group>";
+		};
+		FA83DE9C292416AC004726E9 /* SpecificCornerShape */ = {
+			isa = PBXGroup;
+			children = (
+				FA83DE9D2924170F004726E9 /* SpecificCornerShapeView.swift */,
+				FA83DEA129241754004726E9 /* SpecificCornerShape.swift */,
+			);
+			path = SpecificCornerShape;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +239,8 @@
 				2D3585B529222F0400AABC70 /* BlurView.swift in Sources */,
 				2D3585B129222E6000AABC70 /* StepBottomSheetView.swift in Sources */,
 				2D35858D2920EB3900AABC70 /* ContentView.swift in Sources */,
+				FA83DEA229241754004726E9 /* SpecificCornerShape.swift in Sources */,
+				FA83DE9E2924170F004726E9 /* SpecificCornerShapeView.swift in Sources */,
 				2D3585A52921297500AABC70 /* QRCodeViewExample.swift in Sources */,
 				2D3585A02920F59700AABC70 /* WrapHStackExample.swift in Sources */,
 				2D3585B329222E6F00AABC70 /* StepBottomSheetViewExample.swift in Sources */,
