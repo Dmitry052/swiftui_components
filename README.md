@@ -4,6 +4,8 @@ IOS 14+
 
 List of components with missing functionality out of the box
 
-- WrapHStack
+- WrapHStackView
 - QRCodeView
 - QRCodeScannerView
+- StepBottomSheetView
+- SpecificCornerShape
